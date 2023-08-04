@@ -1,0 +1,236 @@
+#header {
+  background-color: #131921;
+	height: 60px;
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+#left-header {
+	max-width: 322.66px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#amazon-logo {
+	margin-left: 14px;
+	margin-top: 8px;
+}
+
+
+#amazon-logo:hover {
+	outline-color: white;
+	outline-style: solid;
+	outline-width: 1px;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+#delivery-location-container {
+	width: 165.66px;
+	height: 50px;
+	background-color: green;
+	
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 2px;
+
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+#middle-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1784.48px;
+
+	margin-left: 18px;
+	margin-right: 18px;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 3px;
+	padding-right: 4px;
+}
+
+#searchDropDownBox {
+	width: 47px;
+	height: 40px;
+	background-color: lightblue;
+	padding-left: 5px;
+}
+
+#search-bar-container {
+	display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  width: 1680.48px;
+	height: 40px;
+
+}
+
+@media (max-width:1600px) {
+	#search-bar-container{
+		width: 760.48px;
+	}
+}
+
+#search-bar {
+	height: 34px;
+	max-width: 100%;
+	font-size: 15px;
+	flex: 1;
+}
+
+#search-bar::placeholder {
+	padding-left: 8px;
+}
+
+#search-button {
+	width: 45px;
+	height: 40px;
+}
+
+#right-header {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+#lanauage-chooser-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: lightcoral;
+	width: 55.38px;
+	height: 50px;
+
+	margin-left: 1px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 5px;
+}
+
+#lanauage-chooser {
+	background-color: white;
+	width: 55.38px;
+	height: 33px;
+}
+
+#profile-drop-down-container {
+	display: flex;
+	justify-content: center;
+
+	background-color: lightgreen;
+	width: 113.53px;
+	height: 40px;
+
+	margin-left: 2px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 10px;
+}
+
+#profile-drop-down {
+	width: 113.53px;
+	height: 38px;
+	background-color: white;
+}
+
+#return-order-container {
+	display: flex;
+	justify-content: center;
+
+	background-color: aquamarine;
+	width: 61px;
+	height: 40px;
+
+	margin-left: 6px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 10px;
+}
+
+#return-order {
+	width: 58.95px;
+	height: 38px;
+	background-color: white;
+}
+
+#cart-container {
+	background-color: lightpink;
+	width: 68px;
+	height: 40px;
+
+	margin-left: 6px;
+	margin-right: 15px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 10px;
+}
+
+/*---------------------------------------------------------------*/
+
+#nav-below-header {
+	background-color: #232f3e;
+	width: 100%;
+	height: 39px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	
+	padding-left: 15px;
+}
+
+#all-nav {
+	background-color: lightblue;
+	width: 40.422px;
+	height: 23px;
+
+	margin-right: 3px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#nav-fill {
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	flex: 1;
+
+	width: 2251.810px;
+	height: 39px;
+
+	background-color: lightcoral;
+
+}
+
+#nav-right {
+	display: flex;
+	align-items: flex-end;
+	
+	height: 15px;
+	width: 179px;
+
+	margin-top: 5px;
+	margin-right: 1px;
+	margin-bottom: 6px;
+
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 5px;
+	padding-bottom: 6px;
+
+	background-color: lightgray;
+}

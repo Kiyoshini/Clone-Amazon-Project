@@ -1,0 +1,14 @@
+#nav-page-center-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#nav-page-center {
+	width: 1500px;
+	height: 1000px;
+
+
+  background: linear-gradient(180deg, #bedade 0%, #e3e6e6 100%);
+
+}
